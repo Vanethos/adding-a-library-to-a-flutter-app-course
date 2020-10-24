@@ -1,0 +1,16 @@
+title: Adding a Library to a Flutter App
+description: In this course we will see how we can add a simple library to a Flutter App
+template:
+  repo: adding-a-library-to-a-flutter-app-template
+  name: adding-a-library-to-a-flutter-app
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
